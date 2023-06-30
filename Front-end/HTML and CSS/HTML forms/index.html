@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- html -->
+<html lang="en">
+<!-- head -->
+<head>
+    <meta charset="UTF-8">
+    <title>HTML forms</title>
+</head> <!-- End of head -->
+<!-- body -->
+<body>
+    <!-- div -->
+    <div>
+        <h1>HTML forms</h1>
+        <p>HTML forms are used to collect user input</p>
+    </div> <!-- End of div -->
+    <!-- div -->
+    <div>
+        <h2>HTML forms</h2>
+        <p>There are several types of form elements in HTML</p>
+        <p>To create a form, use the following tags:</p>
+        <p>Example:</p>
+        <!-- form -->
+        <form action="" method=""> <!-- Put the correct attributes here! -->
+            <!-- Type text -->
+            <label for="firstname">First name:</label><br>
+            <input type="text" id="firstname" name="firstname" placeholder="firstname" maxlength="50" required><br>
+            <!-- Type password -->
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="password" minlength="8" maxlength="50" required><br>
+            <!-- Type email -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="email@email" maxlength="50" required><br>
+            <!-- Type date -->
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date" required><br>
+            <!-- Type time -->
+            <label for="time">Time:</label><br>
+            <input type="time" id="time" name="time" required><br>
+            <!-- Type week -->
+            <label for="url">URL:</label><br>
+            <input type="url" id="url" name="url" placeholder="https://www.example.com"  maxlength="50" required><br>
+            <!-- Type month -->
+            <label for="number">Number:</label><br>
+            <input type="number" id="number" name="number" placeholder="number" min="1" max="50" required><br>
+            <!-- Type range -->
+            <label for="range">Range:</label><br>
+            <input type="range" id="range" name="range" min="1" max="50" required><br>
+            <!-- Type color -->
+            <label for="color">Color:</label><br>
+            <input type="color" id="color" name="color" required><br>
+            <!-- Type search -->
+            <label for="search">Search:</label><br>
+            <input type="search" id="search" name="search" placeholder="search"  maxlength="50" required><br>
+            <!-- Type tel -->
+            <label for="tel">Telephone:</label><br>
+            <input type="tel" id="tel" name="tel" placeholder="telephone"  maxlength="50" required><br>
+            <!-- Type file -->
+            <label for="file">File:</label><br>
+            <input type="file" id="file" name="file" required><br>
+            <!-- Type radio -->
+            <label for="radio">Radio:</label><br>
+            <input type="radio" id="radio" name="radio" required><br>
+            <!-- Type checkbox -->
+            <label for="checkbox">Checkbox:</label><br>
+            <input type="checkbox" id="checkbox" name="checkbox" required><br>
+            <!-- Type select -->
+            <label for="select">Select:</label><br>
+            <select id="select" name="select" required>
+                <option value="1">Value 1</option>
+                <option value="2">Value 2</option>
+            </select><br>
+            <!-- Type textarea -->
+            <label for="textarea">Textarea:</label><br>
+            <textarea id="textarea" name="textarea" placeholder="textarea"  maxlength="50" required></textarea><br>
+            <!-- Type datalist -->
+            <label for="datalist">Datalist:</label><br>
+            <input list="datalist" id="datalist" name="datalist" placeholder="datalist" maxlength="50" required>
+            <datalist id="datalist">
+                <option value="1">Value 1</option>
+                <option value="2">Value 2</option>
+            </datalist><br>
+            <!-- Type reset -->
+            <input type="reset" value="Reset"><br>
+            <!-- Type submit -->
+            <input type="submit" value="Submit">
+        </form> <!-- End of form -->
+        <p>In this case, I didn't put the action and method, so it won't perform an action</p>
+    </div> <!-- End of div -->
+</body> <!-- End of body -->
+</html> <!-- End of html -->
