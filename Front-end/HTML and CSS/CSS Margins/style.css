@@ -1,0 +1,44 @@
+/* Body styles */
+#body {
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+    /* Check margin with f12 key on the browser */
+    margin: 1%; /* Add a margin of 1% */
+}
+/* End of Body styles */
+
+/* Header styles */
+#header {
+    background-color: salmon;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 1%; /* Add a margin of 1% */
+    margin-right: 10%; /* Add a margin of 10% to the right */
+    padding: 1%;
+}
+/* End of Header Styles */
+
+/* Main Styles */
+#main {
+    background-color: sandybrown;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 1%; /* Add a margin of 1% */
+    margin-left: 10%; /* Add a margin of 10% to the left */
+    padding: 1%;
+    text-shadow: 15px 10px 5px black;
+}
+/* End of Main Styles */
+
+/* Footer styles */
+#footer {
+    background-color: burlywood;
+    border: 2px dotted black;
+    border-radius: 5px;
+    border-left: none;
+    border-right: none;
+    margin: 1%; /* Add a margin of 1% */
+    margin-top: 20%; /* Add a margin of 20% to the top */
+    padding: 1%;
+}
+/* End of Footer Styles */

@@ -1,0 +1,23 @@
+/* Body styles */
+#body {
+    background-color: lightblue; /* Set the background color */
+}
+/* End of Body styles */
+
+/* Header styles */
+#header {
+    background-color: salmon; /* Set the background color */
+}
+/* End of Header Styles */
+
+/* Main Styles */
+#main {
+    background-color: sandybrown; /* Set the background color */
+}
+/* End of Main Styles */
+
+/* Footer styles */
+#footer {
+    background-color: burlywood; /* Set the background color */
+}
+/* End of Footer Styles */

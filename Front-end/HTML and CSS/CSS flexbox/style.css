@@ -1,0 +1,51 @@
+/* Body styles */
+#body {
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+    margin: 1%;
+}
+/* End of Body styles */
+
+/* Container styles */
+.container {
+    align-content: flex-start; /* Aligns items along the cross axis */
+    align-items: center; /* Aligns items along the cross axis */
+    border: 1px solid black;
+    display: flex; /* Displays items as flexible boxes */
+    flex-direction: row; /* Aligns items along the main axis */
+    flex-wrap: nowrap; /* Allows items to wrap as needed */
+    height: 100vh; /* Sets the height of the container to 100% of the viewport height */
+    justify-content: space-around; /* Aligns items along the main axis */
+    margin: 1%;
+}
+/* End of Container styles */
+
+/* Box styles */
+.box {
+    border-radius: 20%;
+    font-size: 5em;
+    height: 100px;
+    text-align: center;
+    width: 100px;
+}
+
+#box1 {
+    background-color: cadetblue;
+}
+
+#box2 {
+    background-color: coral;
+}
+
+#box3 {
+    background-color: burlywood;
+}
+
+#box4 {
+    background-color: darkslategray;
+}
+
+#box5 {
+    background-color: darkslateblue;
+}
+/* End of Box styles */

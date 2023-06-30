@@ -1,0 +1,25 @@
+/* Body styles */
+#body {
+    background-color: lightblue;
+    /* Check the index.html head where is include the font family */
+    font-family: 'Roboto', sans-serif; /* Set the font family */
+}
+/* End of Body styles */
+
+/* Header styles */
+#header {
+    background-color: salmon;
+}
+/* End of Header Styles */
+
+/* Main Styles */
+#main {
+    background-color: sandybrown;
+}
+/* End of Main Styles */
+
+/* Footer styles */
+#footer {
+    background-color: burlywood;
+}
+/* End of Footer Styles */

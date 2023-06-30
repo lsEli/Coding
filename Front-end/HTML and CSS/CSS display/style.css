@@ -1,0 +1,70 @@
+/* Body styles */
+#body {
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+    margin: 1%;
+}
+/* End of Body styles */
+
+/* Header styles */
+#header {
+    background-color: salmon;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 1%;
+    padding: 1%;
+}
+
+#box {
+    background-color: sandybrown;
+    border: 2px solid black;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+}
+
+#header-span {
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: inline; /* Display the span as an inline element */
+}
+/* End of Header Styles */
+
+/* Main Styles */
+#main {
+    background-color: sandybrown;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 1%;
+    overflow: scroll;
+    padding: 1%;
+}
+
+#main-span {
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: inline-block; /* Display the span as an inline-block element */
+    margin: 1%;
+    padding: 1%;
+}
+/* End of Main Styles */
+
+/* Footer styles */
+#footer {
+    background-color: burlywood;
+    border: 2px dotted black;
+    border-radius: 5px;
+    border-left: none;
+    border-right: none;
+    margin: 1%;
+    padding: 1%;
+}
+
+#footer-span {
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: block; /* Display the span as a block element */
+    margin: 1%;
+    padding: 1%;
+}
+/* End of Footer Styles */

@@ -1,0 +1,92 @@
+/* Container styles */
+.container { /* Responsive container */
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 5fr 1.5fr 1fr;
+    grid-template-areas: "nav nav nav nav"
+                         "sidebar main main main"
+                         "sidebar contentA contentB contentC"
+                         "sidebar footer footer footer";
+    grid-gap: 0.2rem;
+}
+/* End of container styles */
+
+/* Item styles */
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End of item styles */
+
+/* Nav styles */
+nav {
+    background-color: darkcyan;
+    grid-area: nav;
+    font-size: x-large;
+}
+/* End of nav styles */
+
+/* Main styles */
+main {
+    background-color: darkgoldenrod;
+    grid-area: main;
+    font-size: x-large;
+}
+/* End of main styles */
+
+/* Sidebar styles */
+#sidebar {
+    background-color: darkmagenta;
+    grid-area: sidebar;
+    font-size: x-large;
+}
+/* End of sidebar styles */
+
+/* div styles */
+div {
+    font-size: x-large;
+}
+/* End of div styles */
+
+/* Content styles */
+#contentA {
+    background-color: darkolivegreen;
+    grid-area: contentA;
+}
+
+#contentB {
+    background-color: darkorange;
+    grid-area: contentB;
+}
+
+#contentC {
+    background-color: darkorchid;
+    grid-area: contentC;
+}
+/* End of content styles */
+
+/* Footer styles */
+footer {
+    background-color: darkred;
+    grid-area: footer;
+    font-size: x-large;
+}
+/* End of footer styles */
+
+/* Media queries */
+@media only screen and (max-width: 500px) { /* Mobile */
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 1.5fr 5fr 2fr 2fr 2fr 1fr;
+        grid-template-areas: "nav"
+                             "sidebar"
+                             "main"
+                             "contentA"
+                             "contentB"
+                             "contentC"
+                             "footer";
+    }
+}
+/* End of media queries */

@@ -1,0 +1,22 @@
+body div p {
+  color: crimson;
+  font-size: 20px;
+}
+
+body {
+  background-color: lightblue;
+  font-family: Sans-Serif;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+div {
+  background-color: burlywood;
+  border-radius: 0%;
+  margin: 1%;
+  padding: 5%;
+}
+
+/*# sourceMappingURL=style.css.map */

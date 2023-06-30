@@ -1,0 +1,39 @@
+/* Body styles */
+#body {
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+    margin: 1%;
+}
+/* End of Body styles */
+
+/* Header styles */
+#header {
+    background-color: salmon;
+    border: 2px solid black; /* Add a black solid border of 2 pixels */
+    border-radius: 5px; /* Change the border radius to 5 pixels */
+    margin: 1%;
+    padding: 1%;
+}
+/* End of Header Styles */
+
+/* Main Styles */
+#main {
+    background-color: sandybrown;
+    border: 2px solid black; /* Add a black solid border of 2 pixels */
+    border-radius: 5px; /* Change the border radius to 5 pixels */
+    margin: 1%;
+    padding: 1%;
+}
+/* End of Main Styles */
+
+/* Footer styles */
+#footer {
+    background-color: burlywood;
+    border: 2px dotted black; /* Add a black dotted border of 2 pixels */
+    border-radius: 5px; /* Change the border radius to 5 pixels */
+    border-left: none; /* Remove the left border */
+    border-right: none; /* Remove the right border */
+    margin: 1%;
+    padding: 1%;
+}
+/* End of Footer Styles */

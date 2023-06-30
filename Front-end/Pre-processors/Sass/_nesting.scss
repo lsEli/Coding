@@ -1,0 +1,10 @@
+// Nesting
+body {
+    div {
+        p {
+            color: crimson; // Nesting is a way to group selectors that share the same parent
+            font-size: 20px;
+        }
+    }
+}
+// End of Annidation

@@ -1,0 +1,35 @@
+/* Body styles */
+#body {
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+    margin: 1%;
+}
+
+#body::first-letter { /* Pseudo-element */
+    background-color: cadetblue;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+#body::first-line { /* Pseudo-element */
+    background-color: coral;
+    font-weight: bold;
+}
+
+#body::before { /* Pseudo-element */
+    background-color: burlywood;
+    content: "This is the beginning of the body.";
+    font-weight: bold;
+}
+
+#body::after { /* Pseudo-element */
+    background-color: burlywood;
+    content: "This is the end of the body.";
+    font-weight: bold;
+}
+
+#body::selection { /* Pseudo-element */
+    background-color: darkslategray;
+    color: white;
+}
+/* End of Body styles */

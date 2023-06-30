@@ -1,0 +1,40 @@
+/* Body styles */
+#body {
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+    margin: 1%;
+}
+/* End of Body styles */
+
+/* Header styles */
+#header {
+    background-color: salmon;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 1%;
+    padding: 1%;
+}
+/* End of Header Styles */
+
+/* Main Styles */
+#main {
+    background-color: sandybrown;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 1%;
+    padding: 1%;
+    text-shadow: 15px 10px 5px black; /* Add a shadow to the text */
+}
+/* End of Main Styles */
+
+/* Footer styles */
+#footer {
+    background-color: burlywood;
+    border: 2px dotted black;
+    border-radius: 5px;
+    border-left: none;
+    border-right: none;
+    margin: 1%;
+    padding: 1%;
+}
+/* End of Footer Styles */

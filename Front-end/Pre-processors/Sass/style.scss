@@ -1,0 +1,31 @@
+@use 'nesting'; // Use the nesting module
+
+// Variables
+$background-color: lightblue; // Variables are a way to store information that you want to reuse later
+$font-style: Sans-Serif;
+$h1-font-size: 100px;
+// End of Variables
+
+// Variables assignment
+body {
+    background-color: $background-color; // Assigns the value of the variable to the property
+    font-family: $font-style; // Assigns the value of the variable to the property
+}
+
+h1 {
+    font-size: $h1-font-size; // Assigns the value of the variable to the property
+}
+// End of Variables assignment
+
+// Mixins (functions)
+@mixin div_style($background-color: inherit, $border-radius: 0%, $margin: 1%, $padding: 1%) { // Mixins are a way to group CSS declarations to be reused later
+    background-color: $background-color;
+    border-radius: $border-radius;
+    margin: $margin;
+    padding: $padding;
+}
+
+div {
+    @include div_style($background-color: burlywood, $padding: 5%); // Mixins are called with the @include directive
+}
+// End of Mixins

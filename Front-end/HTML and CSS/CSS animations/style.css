@@ -1,0 +1,82 @@
+/* Body styles */
+#body {
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+    margin: 1%;
+}
+/* End of Body styles */
+
+/* Container styles */
+.container {
+    align-content: flex-start; /* Aligns items along the cross axis */
+    align-items: center; /* Aligns items along the cross axis */
+    border: 1px solid black;
+    display: flex; /* Displays items as flexible boxes */
+    flex-direction: row; /* Aligns items along the main axis */
+    flex-wrap: nowrap; /* Allows items to wrap as needed */
+    height: 100vh; /* Sets the height of the container to 100% of the viewport height */
+    justify-content: space-around; /* Aligns items along the main axis */
+    margin: 1%;
+}
+/* End of Container styles */
+
+/* Box styles */
+.box {
+    border-radius: 20%;
+    font-size: 5em;
+    height: 100px;
+    text-align: center;
+    width: 100px;
+}
+
+#box1 {
+    animation-name: slideUp;
+    animation-duration: 1s;
+    background-color: cadetblue;
+    transform: rotate(45deg);
+}
+
+#box2 {
+    animation-name: slideDown;
+    animation-duration: 1s;
+    background-color: coral;
+}
+
+#box3 {
+    animation-name: rotate;
+    animation-duration: 1s;
+    background-color: burlywood;
+}
+
+#box4 {
+    animation-name: grow;
+    animation-duration: 1s;
+    background-color: darkslategray;
+}
+
+#box5 {
+    animation-name: fade;
+    animation-duration: 1s;
+    background-color: darkslateblue;
+}
+/* End of Box styles */
+
+@keyframes slideUp {
+    50%{transform: translateY(-100px)}
+}
+
+@keyframes slideDown {
+    50%{transform: translateY(100px)}
+}
+
+@keyframes rotate {
+    50%{transform: rotate(360deg)}
+}
+
+@keyframes grow {
+    50%{transform: scale(2, 2)}
+}
+
+@keyframes fade {
+    50%{opacity: 0}
+}
